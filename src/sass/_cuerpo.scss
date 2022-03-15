@@ -1,0 +1,25 @@
+.cuerpo{
+    background-color: $opaco;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 3rem;
+        padding-top: 100px;
+    }
+    .cuerpo-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .adopta{
+            background-color: antiquewhite;
+        }
+
+        .dona{
+            background-color: aqua;
+        }
+
+        .difunde{
+            background-color: blue;
+        }
+    }
+}

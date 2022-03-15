@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.NavBar {
+  background-color: rgba(250, 235, 215, 0.589);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.NavBar img {
+  width: 70px;
+  padding: 10px;
+  margin-left: 7%;
+  cursor: pointer;
+}
+.NavBar ul {
+  display: flex;
+  gap: 20px;
+  margin-right: 7%;
+}
+.NavBar ul li {
+  list-style: none;
+}
+.NavBar ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #242222;
+  cursor: pointer;
+}
+.NavBar ul li a:hover {
+  color: #e9305e;
+  transition: 0.3s;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/friends-gaaa6b1b5d_1920.jpg");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .info {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding-left: 7%;
+}
+.content .info h1 {
+  font-size: 3.8rem;
+  color: #fff;
+}
+.content .info p {
+  width: 50%;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.content .info button {
+  width: 240px;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  background-color: #e9305e;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content .info button:hover {
+  background-color: rgba(233, 48, 94, 0.486);
+  transition: 0.4s;
+}
+.content .info button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.cuerpo {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.cuerpo h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  padding-top: 100px;
+}
+.cuerpo .cuerpo-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cuerpo .cuerpo-info .adopta {
+  background-color: antiquewhite;
+}
+.cuerpo .cuerpo-info .dona {
+  background-color: aqua;
+}
+.cuerpo .cuerpo-info .difunde {
+  background-color: blue;
+}
+
+.footer {
+  background-color: #000;
+  height: 60px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 1.1rem;
+}/*# sourceMappingURL=main.css.map */

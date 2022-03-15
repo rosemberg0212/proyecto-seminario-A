@@ -1,0 +1,14 @@
+$red: rgb(233, 48, 94);
+$red-transp: rgba(233, 48, 94, 0.486);
+$opaco: rgba(0,0,0,0.7);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'navbar';
+@import 'banner';
+@import 'cuerpo';
+@import 'footer';
